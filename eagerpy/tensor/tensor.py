@@ -368,7 +368,7 @@ class Tensor(metaclass=ABCMeta):
         ...
 
     @abstractmethod
-    def _diag(self: TensorType, k: int = 0) -> TensorType:
+    def diag(self: TensorType, k: int = 0) -> TensorType:
         ...
 
     @abstractmethod
